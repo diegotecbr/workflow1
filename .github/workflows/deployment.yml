@@ -33,4 +33,4 @@ jobs:
         run: npm ci
       
       - name: Deploy
-        echo "Implantando ..."
+        run: echo "Implantando ..."
