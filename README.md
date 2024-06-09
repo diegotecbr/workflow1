@@ -1,3 +1,4 @@
+```mermaid
 graph TD
     A[Receber Evento] --> B[Recuperar EphemeralRunnerSet]
     B --> C[Verificar Réplicas Desejadas vs Atuais]
@@ -7,3 +8,4 @@ graph TD
     F --> G[Atualizar Status do EphemeralRunnerSet]
     D -->|Não| H[Fim]
     G --> H
+```
